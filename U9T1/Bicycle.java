@@ -2,7 +2,7 @@ public class Bicycle extends Vehicle {
     private int gearCount; 
 
     public Bicycle(String name, int wheels, int gearcount) {
-        super(name, wheels); 
+        super(name, wheels, gearcount);
         this.gearCount = gearCount; 
     }
 

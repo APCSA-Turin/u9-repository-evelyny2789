@@ -2,7 +2,7 @@ public class Airplane extends Vehicle{
     private int elevation; 
 
     public Airplane(String name, int wheels, int elevation){
-        super(name, wheels); 
+        super(name, wheels, elevation);
         this.elevation = elevation; 
     }
 
